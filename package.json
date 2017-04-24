@@ -4,7 +4,8 @@
   "description": "Projet web seminaire",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "beeper": "^1.1.1",
     "browser-sync": "^2.18.6",
     "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cache": "^0.4.5",
@@ -34,5 +37,8 @@
     "gulp-sourcemaps": "^2.4.0",
     "gulp-uglify": "^2.0.1",
     "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "eslint": "^3.19.0"
   }
 }
